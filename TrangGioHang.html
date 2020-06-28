@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="vi">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale=1>
+    <title> Thế giới sách</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/454c0e581d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form id="fomr1" class="form-horizontal">
+        <div id="top">
+            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid"> 
+                <a class="navbar-brand" href="#">
+                    <img src="image/logo.jpg" width="75px">
+                </a>
+                <h2>Thế giới sách</h2>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-items">
+                            <a class="nav-link active"href="TrangChu.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="nav-link active "href="TrangLogin.html"><span>Tài khoản</span></a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="nav-link active "href="TrangLienHe.html"> Liên hệ</a>
+                        </li>
+                          <li class="nav-items">
+                            <a class="nav-link active "href="TrangGioiThieu.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="nav-link active "href="TrangGioHang.html"><i class="fas fa-shopping-cart">Giỏ hàng</i></a>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </div>
+        <div id="main">
+          <div class="container"> 
+            <table class="table table-hover"> 
+              <thead> 
+                <tr> 
+                  <th style="width:50%">Tên sản phẩm</th> 
+                  <th style="width:15%">Giá</th> 
+                  <th style="width:10%">Số lượng</th> 
+                  <th style="width:22%" class="text-center">Thành tiền</th> 
+                  <th style="width:10%"> </th> 
+                </tr> 
+              </thead> 
+              <tbody>
+                <tr> 
+                  <td> 
+                    <div class="row"> 
+                      <div class="col-sm-2"><img src="image/img1.jpeg" alt="Sản phẩm 1" width="100">
+                      </div> 
+                      <div class="col-sm-10"> 
+                        <h4>Bắt trẻ đồng xanh</h4> 
+                        <p>Sách văn học nước ngoài</p> 
+                      </div> 
+                    </div> 
+                  </td> 
+                  <td>52.000 VND</td> 
+                  <td><input class="form-control text-center" value="1" type="number">
+                  </td> 
+                  <td class="text-center">52.000 VND</td> 
+                  <td>
+                    <button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+                    </button> 
+                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+                    </button>
+                  </td> 
+                </tr> 
+                <tr> 
+                  <td> 
+                    <div class="row"> 
+                      <div class="col-sm-2"><img src="image/img4.jpg" width="100">
+                      </div> 
+                      <div class="col-sm-10"> 
+                        <h4>Cà phê cùng Tony</h4> 
+                        <p>Sách văn học Việt Nam</p> 
+                      </div> 
+                    </div> 
+                  </td> 
+                  <td>57.000 VND</td> 
+                  <td><input class="form-control text-center" value="1" type="number">
+                  </td> 
+                  <td class="text-center">57.000VND</td> 
+                  <td>
+                    <button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+                    </button> 
+                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+                    </button>
+                  </td> 
+                </tr> 
+                </tbody>
+                <tfoot> 
+                  <tr class="visible-xs"> 
+                    <td class="text-center"><strong>Tổng 102.000 VND</strong>
+                    </td> 
+                  </tr> 
+                  <tr> 
+                    <td><a href="TrangMain.html" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a>
+                    </td> 
+                    <td colspan="2" class="hidden-xs"> </td> 
+                    <td class="hidden-xs text-center"><strong>Tổng tiền 102.000 VND</strong>
+                    </td> 
+                    <td><a href="#" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a>
+                    </td> 
+                  </tr> 
+                </tfoot> 
+            </table>
+          </div>  
+        </div>
+        <div id="footer">
+            <p>Copyright © 2020 Thegioisach.vn - All Rights Reserved.</p>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
